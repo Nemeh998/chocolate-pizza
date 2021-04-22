@@ -1,0 +1,55 @@
+body {
+  margin: auto;
+  width: 850px;
+  padding: auto;
+}
+
+header {
+  display: grid;
+  grid-template-columns: 50px 1fr 300px;
+  align-items: center;
+}
+.para {
+  margin: 0;
+}
+header h2 {
+  margin: 0;
+  font-size: 20px;
+}
+header p {
+  margin: 0;
+  font-size: 12px;
+}
+
+.class2 {
+  text-align: right;
+}
+.choco {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-bottom: 30px;
+}
+.posted {
+  margin: 0;
+  font-size: 12px;
+}
+.fonth1 {
+  margin: 0;
+}
+.items {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background-image: url(./img/list-bg.png);
+}
+
+.van {
+  display: grid;
+  grid-template-columns: 50px 1fr 150px;
+  align-items: center;
+  gap: 10px;
+  align-items: center;
+}
+
+.van div p {
+  margin: 0;
+}
